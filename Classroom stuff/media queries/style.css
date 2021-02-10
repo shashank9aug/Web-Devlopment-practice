@@ -1,0 +1,18 @@
+.box{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+
+@media (max-width:900px){
+   .box{
+       background-color: blue;
+   }
+}
+@media (max-width:600px){
+    .box{
+        background-color: purple;
+    }
+ }

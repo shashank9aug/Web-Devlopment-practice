@@ -1,0 +1,12 @@
+#item section ol{
+    display: none;
+    text-align: center;
+}
+
+#item section a{
+    text-align: center;
+}
+
+#item section:target li{
+    display: block; 
+}

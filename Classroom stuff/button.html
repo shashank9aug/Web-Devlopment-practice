@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            font-size: 30px;
+            padding: 40px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 40px;
+            transition: 1s;
+            border-radius: 30px;
+        }
+
+        .btn{
+           /* box-shadow: rgb(136, 132, 132) 10px 10px;*/
+           box-shadow: grey 7px 7px 3px ;
+        }
+        .btn:hover{
+            transform: translate(20px 20px);
+            /*transform: translate(10px, 10px);*/
+            /*transform: translate(20px,20px);*/
+        }
+
+        .btn:active{
+            background-color: aquamarine;
+            transform: rotate(360deg); 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="btn">
+        Submit
+    </div>
+</body>
+</html>

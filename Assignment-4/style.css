@@ -1,0 +1,45 @@
+.course-card{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(252, 250, 248);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    background-color: rgb(240, 231, 231);
+    margin:30px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    align-items: baseline;
+}
+img
+{ 
+    position: relative;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 30px; 
+    border: solid 2px #fc4f4f;
+    background-color:#fc4f4f;
+}
+button:hover{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:1300px){
+    .card{
+        width: 210px;
+        height: 508px;
+    }
+}

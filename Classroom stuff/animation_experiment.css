@@ -1,0 +1,50 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    margin: 40px;
+    border: dotted 3px black;
+}
+
+.ball{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: aqua;
+    margin-left: 0px;
+    
+    border: 3px solid black;
+}
+
+.ball-1{
+    transform: translate(190px);
+    animation: move 5s ease-in-out;
+    animation-iteration-count: infinite;
+}
+.ball-2{
+   transform: translateX(-70px) translateY(230px);
+   animation: move1 2s ease-in-out;
+   animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    30%{
+        transform: translateX(-5px) translateY(230px) ;
+    }
+    50%{
+        transform:translateX(130px)  translateY(120)  ;
+    }
+    100%{
+        transform: translateX();
+    }
+}
+
+@keyframes move1{
+    50%{
+        transform: translateX(-50px) translateY(-15px) ;
+    }
+    
+}
+
+
+
