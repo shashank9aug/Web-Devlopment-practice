@@ -22,7 +22,7 @@ window.onload = function(){
 
            event.target.parentElement.parentElement.insertBefore(
                event.target.parentElement,
-               event.target.parentElement.nextElementSibling
+               event.target.parentElement.previousElementSibling
            )
            
         }
